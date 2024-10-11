@@ -1,6 +1,6 @@
 # InnovaInvest
 # COSECHAS 4,0 Agricultura Familiar Conectada: 
-# Plataforma Web para Optimizar Cultivos con NDVI y NDWI
+# Plataforma Web para Optimizar Cultivos con NDVI, NDMI y NDWI
 
 # Integrantes del Grupo3
 
@@ -9,24 +9,26 @@
 3. Obed Acosta
 
 ## Casos de estudio
-Plataforma innovadora y accesible para agricultores familiares de la Cuenca del río Grande en el área Central de Panamá, basada en cálculos de los índices NDVI, NDMI y NDWI, que les permita mejorar la toma de decisiones y optimizar el manejo de cultivos mediante el monitoreo de la salud de las plantas y la disponibilidad de agua en sus terrenos agrícolas e identificar posibles zonas inundables en el la parcela seleccionada.
+"Plataforma innovadora y accesible para agricultores familiares de la Cuenca del río Grande en el área Central de Panamá, basada en cálculos de los índices NDVI, NDMI y NDWI, que les permita mejorar la toma de decisiones y optimizar el manejo de cultivos mediante el monitoreo de la salud de las plantas y la disponibilidad de agua en sus terrenos agrícolas e identificar posibles zonas inundables en el la parcela seleccionada."
 
 ### Objetivo General
 
-"Desarrollar una plataforma web innovadora y accesible para agricultores familiares, basada en cálculos de los índices NDVI y NDWI, que les permita mejorar la toma de decisiones y optimizar el manejo de cultivos mediante el monitoreo de la salud de las plantas y la disponibilidad de agua en sus terrenos agrícolas ee identificar posibles zonas inundables en el area."
+"Desarrollar una plataforma web innovadora y accesible para los agricultores familiares de la cuenca del Río Grande en Panamá, que integre datos de teledetección (NDVI, NDMI y NDWI) y pronósticos climáticos, facilitando la toma de decisiones informadas sobre el manejo de cultivos, monitoreo de la salud de las plantas, disponibilidad de agua, épocas de siembra y cosecha, y la identificación de zonas inundables, promoviendo una agricultura sostenible en respuesta al cambio climático."
 
 
 ### Objetivos Específicos
 
-* Desarrollar la plataforma web: Crear una plataforma en línea que sea intuitiva, fácil de usar y accesible desde diversos dispositivos    (como computadoras, tabletas y teléfonos móviles) para garantizar que los agricultores familiares puedan acceder a ella y utilizarla de manera efectiva.
-*  Integrar datos de teledetección: Automatizar la descarga de datos de los satilites y delimitados por las parcelas que el usuario seleccione.
-* Identificar la calidad de la cobertura vegetal
-* Identificar las potencialidades de concentración de agua superficial
-* Definir los principales usos de suelo
-* Delimitación de áreas de inundación por influencia topográfica
-* Establecer bases de datos de parcelas agrícolas
-* Implementar alertas y notificaciones cuando se detecten cambios significativos en los índices NDVI y NDWI, señalando posibles situaciones de estrés hídrico o problemas en el crecimiento de los cultivos.
-* Facilitar la interacción y colaboración al implementar funciones de interacción social en la plataforma para que los agricultores familiares puedan compartir experiencias, hacer preguntas y recibir asesoramiento de otros agricultores y expertos agrícolas.
+	Desarrollar una plataforma web intuitiva y accesible: Crear una plataforma digital de fácil uso que permita a los agricultores familiares acceder a información clave sobre sus cultivos y suelos, compatible con dispositivos como computadoras, tabletas y teléfonos móviles, con capacidad para trabajar en entornos de baja conectividad.
+	Automatizar la integración de datos de teledetección: Implementar un sistema que descargue, procese y analice de manera automática los datos de satélites sobre las parcelas seleccionadas por los usuarios, utilizando índices NDVI (Índice de Vegetación de Diferencia Normalizada), NDMI( Índice de Humedad de Diferencia Normalizada) y NDWI (Índice de Diferencia de Agua Normalizada) para monitorear la salud de la vegetación y la humedad del suelo.
+	Monitorear la salud de los cultivos en tiempo real: Proveer herramientas para el monitoreo continuo del estado de la cobertura vegetal de las parcelas, usando NDVI para evaluar el crecimiento de los cultivos y emitir alertas tempranas en caso de identificar problemas como estrés hídrico o baja calidad de la vegetación.
+	Evaluar y pronosticar la disponibilidad de agua: Analizar las condiciones de humedad del suelo mediante NDWI y pronósticos climáticos, para informar a los agricultores sobre la disponibilidad de agua o inundación en sus parcelas.
+	Delimitar áreas propensas a inundaciones: Definir zonas de riesgo de inundación basadas en análisis topográficos, ayudando a los agricultores a planificar mejor sus cultivos y evitar pérdidas debido a fenómenos climáticos extremos.
+	Identificar estrés hídrico antes de que sea visible a simple vista. Este tipo de estrés ocurre cuando las plantas no tienen suficiente agua, lo que puede afectar negativamente su crecimiento y rendimiento. El monitoreo continuo con NDMI puede ayudar a detectar este problema y tomar medidas correctivas, como el riego.
+	Ofrecer recomendaciones personalizadas sobre cultivos: Desarrollar un sistema de sugerencias basado en datos históricos y climáticos para orientar a los agricultores en la elección de cultivos adecuados, teniendo en cuenta la época del año, las condiciones del suelo y el clima pronosticado.
+	Facilitar la planificación de siembras y cosechas: Implementar funciones para estimar el tiempo óptimo de siembra y cosecha basado en datos de crecimiento de los cultivos y las condiciones climáticas, mejorando la eficiencia de los ciclos de producción agrícola.
+	Crear un espacio de interacción y colaboración: Establecer funciones de interacción social en la plataforma que permitan a los agricultores compartir experiencias, hacer preguntas y recibir asesoramiento de otros agricultores y expertos en agricultura.
+	Almacenar y gestionar datos históricos: Desarrollar una base de datos que almacene datos históricos de los cultivos y las condiciones de las parcelas, permitiendo a los agricultores realizar análisis comparativos y optimizar su planificación agrícola a largo plazo.
+
 
 ## Metodología
 
