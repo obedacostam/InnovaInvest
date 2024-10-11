@@ -9,8 +9,7 @@
 3. Obed Acosta
 
 ## Casos de estudio
-
-Cuenca del río Grande en el área Central de Panamá
+Plataforma innovadora y accesible para agricultores familiares de la Cuenca del río Grande en el área Central de Panamá, basada en cálculos de los índices NDVI, NDMI y NDWI, que les permita mejorar la toma de decisiones y optimizar el manejo de cultivos mediante el monitoreo de la salud de las plantas y la disponibilidad de agua en sus terrenos agrícolas e identificar posibles zonas inundables en el la parcela seleccionada.
 
 ### Objetivo General
 
