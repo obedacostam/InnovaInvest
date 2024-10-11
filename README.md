@@ -18,30 +18,32 @@
 
 ### Objetivos Específicos
 
-	Desarrollar una plataforma web intuitiva y accesible: Crear una plataforma digital de fácil uso que permita a los agricultores familiares acceder a información clave sobre sus cultivos y suelos, compatible con dispositivos como computadoras, tabletas y teléfonos móviles, con capacidad para trabajar en entornos de baja conectividad.
-	Automatizar la integración de datos de teledetección: Implementar un sistema que descargue, procese y analice de manera automática los datos de satélites sobre las parcelas seleccionadas por los usuarios, utilizando índices NDVI (Índice de Vegetación de Diferencia Normalizada), NDMI( Índice de Humedad de Diferencia Normalizada) y NDWI (Índice de Diferencia de Agua Normalizada) para monitorear la salud de la vegetación y la humedad del suelo.
-	Monitorear la salud de los cultivos en tiempo real: Proveer herramientas para el monitoreo continuo del estado de la cobertura vegetal de las parcelas, usando NDVI para evaluar el crecimiento de los cultivos y emitir alertas tempranas en caso de identificar problemas como estrés hídrico o baja calidad de la vegetación.
-	Evaluar y pronosticar la disponibilidad de agua: Analizar las condiciones de humedad del suelo mediante NDWI y pronósticos climáticos, para informar a los agricultores sobre la disponibilidad de agua o inundación en sus parcelas.
-	Delimitar áreas propensas a inundaciones: Definir zonas de riesgo de inundación basadas en análisis topográficos, ayudando a los agricultores a planificar mejor sus cultivos y evitar pérdidas debido a fenómenos climáticos extremos.
-	Identificar estrés hídrico antes de que sea visible a simple vista. Este tipo de estrés ocurre cuando las plantas no tienen suficiente agua, lo que puede afectar negativamente su crecimiento y rendimiento. El monitoreo continuo con NDMI puede ayudar a detectar este problema y tomar medidas correctivas, como el riego.
-	Ofrecer recomendaciones personalizadas sobre cultivos: Desarrollar un sistema de sugerencias basado en datos históricos y climáticos para orientar a los agricultores en la elección de cultivos adecuados, teniendo en cuenta la época del año, las condiciones del suelo y el clima pronosticado.
-	Facilitar la planificación de siembras y cosechas: Implementar funciones para estimar el tiempo óptimo de siembra y cosecha basado en datos de crecimiento de los cultivos y las condiciones climáticas, mejorando la eficiencia de los ciclos de producción agrícola.
-	Crear un espacio de interacción y colaboración: Establecer funciones de interacción social en la plataforma que permitan a los agricultores compartir experiencias, hacer preguntas y recibir asesoramiento de otros agricultores y expertos en agricultura.
-	Almacenar y gestionar datos históricos: Desarrollar una base de datos que almacene datos históricos de los cultivos y las condiciones de las parcelas, permitiendo a los agricultores realizar análisis comparativos y optimizar su planificación agrícola a largo plazo.
+* Desarrollar una plataforma web intuitiva y accesible: Crear una plataforma digital de fácil uso que permita a los agricultores familiares acceder a información clave sobre sus cultivos y suelos, compatible con dispositivos como computadoras, tabletas y teléfonos móviles, con capacidad para trabajar en entornos de baja conectividad.
+* Automatizar la integración de datos de teledetección: Implementar un sistema que descargue, procese y analice de manera automática los datos de satélites sobre las parcelas seleccionadas por los usuarios, utilizando índices NDVI (Índice de Vegetación de Diferencia Normalizada), NDMI( Índice de Humedad de Diferencia Normalizada) y NDWI (Índice de Diferencia de Agua Normalizada) para monitorear la salud de la vegetación y la humedad del suelo.
+* Monitorear la salud de los cultivos en tiempo real: Proveer herramientas para el monitoreo continuo del estado de la cobertura vegetal de las parcelas, usando NDVI para evaluar el crecimiento de los cultivos y emitir alertas tempranas en caso de identificar problemas como estrés hídrico o baja calidad de la vegetación.
+* Evaluar y pronosticar la disponibilidad de agua: Analizar las condiciones de humedad del suelo mediante NDWI y pronósticos climáticos, para informar a los agricultores sobre la disponibilidad de agua o inundación en sus parcelas.
+* Delimitar áreas propensas a inundaciones: Definir zonas de riesgo de inundación basadas en análisis topográficos, ayudando a los agricultores a planificar mejor sus cultivos y evitar pérdidas debido a fenómenos climáticos extremos.
+* Identificar estrés hídrico antes de que sea visible a simple vista. Este tipo de estrés ocurre cuando las plantas no tienen suficiente agua, lo que puede afectar negativamente su crecimiento y rendimiento. El monitoreo continuo con NDMI puede ayudar a detectar este problema y tomar medidas correctivas, como el riego.
+* Ofrecer recomendaciones personalizadas sobre cultivos: Desarrollar un sistema de sugerencias basado en datos históricos y climáticos para orientar a los agricultores en la elección de cultivos adecuados, teniendo en cuenta la época del año, las condiciones del suelo y el clima pronosticado.
+* Facilitar la planificación de siembras y cosechas: Implementar funciones para estimar el tiempo óptimo de siembra y cosecha basado en datos de crecimiento de los cultivos y las condiciones climáticas, mejorando la eficiencia de los ciclos de producción agrícola.
+* Crear un espacio de interacción y colaboración: Establecer funciones de interacción social en la plataforma que permitan a los agricultores compartir experiencias, hacer preguntas y recibir asesoramiento de otros agricultores y expertos en agricultura.
+* Almacenar y gestionar datos históricos: Desarrollar una base de datos que almacene datos históricos de los cultivos y las condiciones de las parcelas, permitiendo a los agricultores realizar análisis comparativos y optimizar su planificación agrícola a largo plazo.
 
+## Población Meta
+"La población meta principal son los agricultores familiares de la cuenca del río Grande, en la región central de Panamá. Estos agricultores dependen de pequeños terrenos y practican agricultura a pequeña escala, con recursos limitados y muchas veces sin acceso a tecnologías avanzadas. La plataforma está diseñada específicamente para ayudarles a mejorar la eficiencia de su producción, enfrentar los desafíos del cambio climático y tomar decisiones informadas sobre el manejo de sus cultivos y recursos hídricos."
 
-## Metodología
+## Componentes y Metodologías Generales.
 
-### Planteamiento del problema
+### 1. Evaluación de Suelo y Recomendación de Cultivo
+#### Objetivo: 
+Antes de la siembra, evaluar la calidad del suelo de la parcela y, basándose en la época del año, datos históricos de cultivos en la zona y la información climática pronosticada, sugerir el cultivo más adecuado.
+#### Metodología:
+1. Base de datos de suelos y cultivos locales: Crea una base de datos con información detallada sobre las características del suelo en la zona (pH, nutrientes, capacidad de retención de agua, etc.) y los cultivos que se han sembrado exitosamente en la región. Esto se puede hacer a través de estudios previos o recopilando datos directamente de los agricultores.
+2. Recomendaciones basadas en reglas: Configura reglas simples que comparen las características del suelo y el clima con las necesidades de cada cultivo. Por ejemplo, si la época es temporada seca y el suelo tiene buen drenaje, la plataforma puede sugerir un cultivo que necesite menos agua, como maíz o frijoles.
+3. Pronóstico climático: Utiliza datos meteorológicos públicos para proporcionar información sobre las condiciones climáticas esperadas durante el ciclo de cultivo, y ajustar las recomendaciones según los cultivos más resistentes a las condiciones previstas.
+#### Interfaz: 
+Una vez que el agricultor seleccione su parcela en la plataforma, el sistema puede desplegar una lista de cultivos recomendados, junto con las razones detrás de cada recomendación.
 
-En la actualidad nuestros agricultores se enfrentan a retos nunca antes vistos, fenómenos climáticos extremos como sequias, inundaciones, Ciclones tropicales, degradación de la tierra, entre otros. Estos fenómenos naturales alteran en gran medida los valores nutricionales y químicos de los suelos en que los cultivos regularmente se desarrollan. 
-Es por esto que se hace necesaria una herramienta que le permita al agricultor poder recibir alertas sobre las variaciones de las condiciones del suelo y poder monitorear de manera constante la salud de los cultivos y el comportamiento de los recursos hídricos existentes.
-Nosotros proponemos una solución basada en una plataforma web innovadora y accesible que sea fácil de usar y que esté disponible para los agricultores, incluso aquellos con recursos limitados o acceso a Internet restringido, 
-Por medio de esta herramienta, los agricultores se verán beneficiados con productos como la generación de alertas y notificaciones que los pongan sobre aviso cuando se detecten cambios significativos en los índices NDVI y NDWI, señalando posibles situaciones de estrés hídrico o problemas en el crecimiento de los cultivos.
-Además, tendrán información sobre los riesgos existentes de áreas inundables y don esta información a la mano puedan decidir los lugares adecuados para sembrar sin caer en pérdidas de inversión.
-Otro beneficio a obtener es que habilita la posibilidad de almacenar y visualizar datos históricos de los índices calculados y de esta manera hacer un análisis comparativo y comprender mejor las tendencias estacionales y anuales de estos índices.
-Es importante mencionar que la información geoespacial estará disponible para el agricultor casi en tiempo real para el monitoreo adecuado de la salud de sus cultivos, 
-Debemos apoyar de manera intencional al agricultor familiar ya que es un engranaje importante dentro de la economía de nuestros países.
 
 ## Procedimiento
 
